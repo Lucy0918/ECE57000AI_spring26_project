@@ -28,8 +28,9 @@ ECE570_AI_Project/
 ├── model.py                # CNN architecture (RealTimeCharCNN)
 ├── class_map.py            # Mapping of class indices to characters
 │
-├── train.py                # Training script for 36-class model (0–9, A–Z)
-├── finetune_letters.py     # Fine-tuning model on A–Z dataset
+├── train.py                # Baseline training on full EMNIST
+├── train_36.py             # Training script for 36-class model (0–9, A–Z)
+├── finetune_letters.py     # Task-specific 36-class training
 │
 ├── test_one_letter.py      # Quick sanity check (1 sample per class)
 ├── test_10_letters.py      # Random evaluation (multiple samples per class)
